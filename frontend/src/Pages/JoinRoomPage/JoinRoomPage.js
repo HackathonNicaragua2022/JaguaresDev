@@ -5,6 +5,7 @@ import { roomActions } from '../../store/store';
 import JoinRoomTitle from './JoinRoomTitle';
 import './JoinRoomPage.css';
 import JoinRoomContent from './JoinRoomContent';
+import fondo from '../../images/fondo-mesatrabajo.png';
 
 const JoinRoomPage = () => {
   const dispatch = useDispatch();
@@ -20,10 +21,13 @@ const JoinRoomPage = () => {
   }, [])
 
   return (
-    <div className='join_room_page_container'>
-      <div className='join_room_page_panel'>
-        <JoinRoomTitle isRoomHost={isRoomHost}/>
-        <JoinRoomContent />
+    <div>
+        <img src={fondo} className="fondo"></img>
+      <div className='join_room_page_container'>
+        <div className='join_room_page_panel'>
+          <JoinRoomTitle isRoomHost={isRoomHost}/>
+          <JoinRoomContent />
+        </div>
       </div>
     </div>
   );

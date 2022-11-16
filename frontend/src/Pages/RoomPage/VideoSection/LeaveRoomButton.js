@@ -1,4 +1,5 @@
 import React from "react";
+import colgar from '../../../images/colgar_Mesa.png';
 
 function LeaveRoomButton(props) {
   const handleRoomLeave = () => {
@@ -8,9 +9,7 @@ function LeaveRoomButton(props) {
 
   return (
     <div className="video_button_container">
-      <button className="video_button_end" onClick={handleRoomLeave}>
-        Abandonar
-      </button>
+      <img src={colgar} onClick={handleRoomLeave} className="video_button_image"/>
     </div>
   );
 }

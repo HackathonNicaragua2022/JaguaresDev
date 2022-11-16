@@ -28,17 +28,22 @@ const PrincipalPage = props => {
                 </nav>        
             </div>
             <div>
+            <form action="/IntroductionPage">
             <button className="nav-menu-link nav-link btn">Conectate</button>
+            </form>
             </div>
             <div>
-            <img src={principalimage} className="princ-image"></img>
+            <img src={principalimage} className="princ-image"></img> 
             </div>
             <div className="texto">
-            <h1>Uniendo al mundo sin barreras</h1>
-            <p>El servicio de videollamadas más completo e inclusivo. Porque todos, sin excepciones merecemos disfrutar de los beneficios de la tecnología.</p>
+            <h1 className="h1">Uniendo al mundo sin barreras</h1>
+            <p className="p">El servicio de videollamadas más completo e inclusivo. Porque todos, sin excepciones merecemos disfrutar de los beneficios de la tecnología.</p>
             </div>
-            <div>
-            <button className="nav-menu-link nav-link btn2">Conectate</button>
+            <div>           
+            <form action="/IntroductionPage">
+            <button onClick="/IntroductionPage" className="nav-menu-link nav-link btn2">Conectate</button>            
+            </form>   
+                     
             </div>
 
             </header>

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { toggleMic } from '../../../util/webRTCHandler';
 
-import MicLogo from '../../../images/mic.svg';
+import MicLogo from '../../../images/micro_Mesa.png';
 import MicOffLogo from '../../../images/micOff.svg';
 
 function MicButton(props) {

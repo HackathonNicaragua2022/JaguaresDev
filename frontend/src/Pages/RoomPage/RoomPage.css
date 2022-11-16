@@ -1,7 +1,62 @@
+.marco{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0;
+  right: 0;
+  padding-left: 0;
+}
+
+.video_button_container {
+  display: flex;
+  flex-direction: column;
+  width: 120px;
+  
+}
+.video_buttons_container {
+  width: 60%;
+  height: 22%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 365px;
+  bottom: 0;
+  z-index: 3;
+
+}
+.logo_mesa{
+  position: absolute;
+  width: 120px;
+  height: 100px;
+  top: 0;
+  left: 718px;
+  z-index: 2;
+}
+.barra{
+  position: absolute;
+  width: 500px;
+  height: 100px;
+  top: 610px;
+  left: 570px;
+  z-index: 3;
+
+}
+video {
+  width: 1000px;
+  height: 480px;
+  margin-top: 100px;
+  margin-left: -360px;
+  position: absolute;
+
+}
 .room_container {
     width: 100%;
     height: 100vh;
     display: flex;
+    position: absolute;
+
   }
   
   .chat_section_container {
@@ -254,33 +309,13 @@
     justify-content: center;
   }
   
-  .video_buttons_container {
-    width: 60%;
-    height: 10%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: absolute;
-    left: 20%;
-    bottom: 0;
-    background: #131E3A;
-  }
-  
-  .video_button_container {
-    margin-left: 25px;
-    display: flex;
-    flex-direction: column;
-  }
-  
   .video_button_image {
     height: 80%;
-    padding: 10px;
     border-radius: 25px;
     transition: 0.5s;
   }
   
   .video_button_image:hover {
-    background: blue;
     padding: 10px;
     border-radius: 25px;
   }
@@ -306,8 +341,9 @@
     height: 90%;
     width: 100%;
     background-color: #f6f9fb;
-    position: relative;
     border-radius: 0px 0px 25px 25px;
+    position: absolute;
+
   }
   
   .participants {
@@ -336,7 +372,7 @@
     justify-content: center;
     width: 100%;
     height: 100%;
-    position: relative;
+    position: absolute;
   }
   
   .screen_share_track {
@@ -356,59 +392,57 @@
     height: 100%;
   }
   
-  video {
-    width: 98%;
-    height: 98%;
-  }
+
   
   .room_label {
     position: absolute;
     display: flex;
     width: 100%;
     justify-content: center;
-    z-index: 4;
+    z-index: 2;
+    left: 600px;
   }
   
   .room_label_paragraph {
     font-size: 17px;
     color: white;
     margin-top: 0;
-    padding: 18px 38px;
-    background: #131E3A;
+    padding: 18px 50px;
+    background: #5D96B9;
   }
   
   .video_track_container:first-child:nth-last-child(1) {
     width: 100%;
     height: 100%;
-    position: relative;
+    position: absolute;
   }
   
   .video_track_container:first-child:nth-last-child(2),
   .video_track_container:first-child:nth-last-child(2) ~ .video_track_container {
     width: 50%;
     height: 50%;
-    position: relative;
+    position: absolute;
   }
   
   .video_track_container:first-child:nth-last-child(3),
   .video_track_container:first-child:nth-last-child(3) ~ .video_track_container {
     width: 50%;
     height: 50%;
-    position: relative;
+    position: absolute;
   }
   
   .video_track_container:first-child:nth-last-child(4),
   .video_track_container:first-child:nth-last-child(4) ~ .video_track_container {
     width: 50%;
     height: 50%;
-    position: relative;
+    position: absolute;
   }
   
   .video_track_container:first-child:nth-last-child(5),
   .video_track_container:first-child:nth-last-child(5) ~ .video_track_container {
     width: 33%;
     height: 33%;
-    position: relative;
+    position: absolute;
   }
   
   .video_track_container:first-child:nth-last-child(6),

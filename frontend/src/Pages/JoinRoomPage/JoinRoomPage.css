@@ -5,6 +5,8 @@
   align-items: center;
   justify-content: center;
   position: relative;
+  position: absolute;
+  z-index: 2;
 }
 
 .join_room_page_panel {
@@ -111,36 +113,37 @@
 }
 
 .join_room_cancel_button {
-  width: 80px;
+  width: 100px;
   margin: auto;
-  height: 30px;
-  background-color: white;
+  height: 40px;
+  background-color: #131E3A;
   border: none;
   border-radius: 8px;
-  transition: 0.3s;
-}
-
-.join_room_cancel_button:hover {
-  background-color: #131E3A;
+  transition: 0.5s;
+  border: 1px solid #131E3A;
+  font-size: medium;
   color: white;
+  margin-right:370px;
 }
 
 .join_room_success_button {
-  width: 80px;
-  margin: auto;
-  height: 30px;
-  background-color: white;
+  width: 100px;
+  height: 40px;
+  background-color: #131E3A;
   border-radius: 8px;
   border: none;
-  color: black;
-  transition: 0.5s;
-}
-
-.join_room_success_button:hover {
-  background-color: #131E3A;
   color: white;
+  transition: 0.5s;
+  border: 1px solid #131E3A;
+  font-size: medium;
+  margin-left:370px;
 }
-
+.join_room_cancel_button:hover,
+.join_room_success_button:hover {
+  background-color: white;
+  color: #131E3A;
+  cursor: pointer;
+}
 .join_room_inputs_container {
   display: flex;
   flex-direction: column;

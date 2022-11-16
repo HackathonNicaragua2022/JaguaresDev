@@ -1,11 +1,6 @@
-* {
-    margin: 0;
-    box-sizing: border-box;
-  }
-  
+
   body {
     font-family: sans-serif;
-    padding: 90px 20px 0;
   }
   
   .header {
@@ -33,7 +28,7 @@
   }
 
   .btn{
-    background-color: #034574;
+    background-color: #5D96B9;
     color: white;
     border: 1px solid gray;
     font-size: 18px;
@@ -43,7 +38,7 @@
   }
 
   .btn2{
-    background-color: #034574;
+    background-color: #5D96B9;
     color: white;
     border: 1px solid gray;
     font-size: 18px;
@@ -54,21 +49,21 @@
   }
   
   .logo {
-    width: 250px;
-    height: 80px;
-    margin-top: 160px;
-    margin-left: 120px;
+    width: 170px;
+    height: 150px;
+    margin-top: 140px;
+    margin-left: 90px;
     position: absolute;
   }
 
-h1 {
+.h1 {
     width: 20vw;
     margin-top: 14vw;
     margin-left: 7vw;
     position: absolute;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-p{
+.p{
     font-family: sans-serif;
     width: 23vw;
     margin-top: 20vw;
@@ -109,14 +104,15 @@ p{
   
   .nav-menu-link:hover,
   .nav-menu-link_active {
-    color: #007CEE;
+    color: white;
     transition: 0.5s;
+    background-color: #5D96B9;
   }
 
   .btn2:hover,
   .btn:hover{
     background-color: white;
-    color: #034574;
+    color: #5D96B9;
     transition: 0.5s;
     border: 1px solid #034574;
     
