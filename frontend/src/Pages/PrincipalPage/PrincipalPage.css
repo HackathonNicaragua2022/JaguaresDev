@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: sans-serif;
+    padding: 90px 20px 0;
+  }
+  
+  .header {
+    background-color: white;
+    height: 80px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+  }
+  
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    margin: 0 auto;
+    width: 60vw;
+    left: 0vw;
+    border-bottom: 1px solid gray;
+  }
+  
+  .nav-link {
+    color: black;
+    text-decoration: none;
+  }
+
+  .btn{
+    background-color: #034574;
+    color: white;
+    border: 1px solid gray;
+    font-size: 18px;
+    margin-top: 1.9vw;
+    margin-left:85vw;
+    cursor: pointer;
+  }
+
+  .btn2{
+    background-color: #034574;
+    color: white;
+    border: 1px solid gray;
+    font-size: 18px;
+    margin-top: 26vw;
+    margin-left: 7vw;
+    cursor: pointer;
+
+  }
+  
+  .logo {
+    width: 250px;
+    height: 80px;
+    margin-top: 160px;
+    margin-left: 120px;
+    position: absolute;
+  }
+
+h1 {
+    width: 20vw;
+    margin-top: 14vw;
+    margin-left: 7vw;
+    position: absolute;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+p{
+    font-family: sans-serif;
+    width: 23vw;
+    margin-top: 20vw;
+    margin-left: 7vw;
+    color: gray;
+    position: absolute;
+    font-family: verdana, arial, helvetica;
+    line-height: 18px;
+    font-size: 12px;   
+}
+  .princ-image{
+    width: 43vw;
+    height: 90vh;
+    margin-top: 0.72vw;
+    margin-left: 57vw;
+    position: absolute;
+  }
+  
+  .nav-menu {
+    display: flex;
+    margin-right: 40px;
+    list-style: none;
+  }
+  
+  .nav-menu-item {
+    font-size: 18px;
+    margin: 0 10px;
+    line-height: 80px;
+    width: 25vw;
+    text-decoration: none;
+    list-style: none;
+  }
+  
+  .nav-menu-link {
+    padding: 8px 12px;
+    border-radius: 3px;
+  }
+  
+  .nav-menu-link:hover,
+  .nav-menu-link_active {
+    color: #007CEE;
+    transition: 0.5s;
+  }
+
+  .btn2:hover,
+  .btn:hover{
+    background-color: white;
+    color: #034574;
+    transition: 0.5s;
+    border: 1px solid #034574;
+    
+  }
